@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+       fieldset
+       {
+           width: 500px;
+           margin-left: 500px;
+           margin-top: 10%;
+           background-color: burlywood;
+           border: 8px solid white;
+       }
+       p
+       {
+           margin-left: 210px;
+           font-size: larger;
+           height: 10px;
+           font-weight: bolder;
+           font-style:inherit;
+       }
+       #sub
+       {
+           margin-top: 5px;
+           margin-left: 108px;
+       }
+       button
+       {
+        width: 150px;height: 30px; font-size: large; font-weight: bold
+       }
+       input
+       {
+           width: 60%;
+           height: 25px;
+       }
+        </style>
+    </head>
+    <body style="background-color: black;">   
+        <form> 
+            <fieldset>
+        <div> 
+            <p style="width: 20px;"><b>Username</b></p> 
+            <input style="margin-left: 110px;" type="text" placeholder="Enter Username" name="uname" required> 
+  
+            <p><b>Password</b></p> 
+            <input style="margin-left: 110px;" type="password" placeholder="Enter Password" name="psw" required> 
+        <div id="sub">
+            <button  type="submit">Login</button> 
+            <button type="button">Cancel</button> 
+             
+        </div>
+        </div> 
+  
+        <div id="sub"> 
+           
+            <input style="height: 15px; " type="checkbox" checked="checked"> Remember me
+            <span style="margin-left: 100px;">Forgot <a href="#">password?</a></span> 
+        </div> 
+            </fieldset>
+        </form>
+    </body>     
+</html>
